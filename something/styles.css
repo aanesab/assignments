@@ -1,0 +1,134 @@
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(255, 204, 216);
+}
+
+.cat-paw {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cat-paw img {
+  width: 250px;
+}
+
+h1 {
+  font-size: 62px;
+  color: rgb(255, 106, 141);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  align-self: center;
+  background-color: rgb(222, 226, 229);
+  padding: 20px;
+  border-radius: 100px;
+  border: 8px solid black;
+  align-self: flex-end;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  width: 300px;
+  align-content: flex-start;
+}
+
+main {
+  background-color: rgb(255, 164, 186);
+  padding: 32px;
+  margin: 32px auto;
+  width: 700px;
+  border-radius: 8px;
+  border: 3px solid black;
+  color: rgb(60, 70, 77);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 14px 0;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(18, 38, 92);
+  background-color: rgb(200, 212, 244);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(167, 186, 238);
+  color: white;
+}
+
+#cat-links a {
+  text-decoration: none;
+  background-color: transparent !important;
+  color: white;
+}
+
+#cat-links a:hover {
+  color: rgb(18, 38, 92);
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+footer p {
+  color: rgb(156, 159, 161);
+  padding-top: 10px;
+}
+
+footer a {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background-color: rgb(252, 214, 144);
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+footer a:hover,
+footer a:active {
+  background-color: rgb(237, 167, 81);
+  border: solid transparent;
+  color: white;
+}
+
+.extra-important {
+  color: rgb(244, 245, 246);
+  border-color: rgb(118, 148, 228);
+}
+
+.cat-thing {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.cat-thing img {
+  width: 200px;
+}
+
+.idk {
+  display: flex;
+  flex-direction: column;
+}
